@@ -6,6 +6,13 @@ plugins {
 group 'com.qiang.example'
 version '1.0-SNAPSHOT'
 
+// 导出可执行程序
+// 添加以下两句，然后刷新gradle，再双击tasks/distribution/installDist，
+// 然后就可以在build/install下的bin目录找到可执行程序
+
+apply plugin: 'application'
+mainClassName = "com.qiang.example.chapter03.CalcKt"
+
 sourceCompatibility = 1.8
 
 repositories {
