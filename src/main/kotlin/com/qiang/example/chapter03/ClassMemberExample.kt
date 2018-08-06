@@ -4,7 +4,7 @@ package com.qiang.example.chapter03
  * 属性的访问控制
  */
 class A {
-//    protected var a = 0 // 默认帮我们实现了getter和setter方法
+//    protected var A = 0 // 默认帮我们实现了getter和setter方法
 //        protected get// 修改访问权限
 //        // 覆写getter和setter
 //        get() {

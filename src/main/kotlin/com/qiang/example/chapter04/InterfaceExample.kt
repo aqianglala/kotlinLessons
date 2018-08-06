@@ -5,7 +5,7 @@ interface A{
     var j:Int
     // 可以有默认实现，这样实现类可以不覆写该方法
     fun a(){
-        println("a")
+        println("A")
     }
 }
 
