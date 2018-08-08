@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14f1413a-637d-4496-b37e-b18ecb248fa9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter05/Filter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter05/FlatMap.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter05/Fold.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter05/LetApplyWith.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter05/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter05/Map.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter05/Reduce.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter05/Tailrec.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter05/TakeWhile.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter05/ClosePackage.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter05/Currying.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter05/Exercise.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter05/FunctionCompound.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter05/偏函数.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/META-INF/qiang_main.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/META-INF/qiang_main.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/qiang/example/chapter05/TakeWhileKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/qiang/example/chapter05/TakeWhileKt.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -63,14 +60,15 @@
     <session id="690404659">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.71" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -78,7 +76,7 @@
           <entry key="bat" value="1" />
           <entry key="gradle" value="4" />
           <entry key="java" value="9" />
-          <entry key="kt" value="60" />
+          <entry key="kt" value="71" />
           <entry key="qiang" value="1" />
         </counts>
       </usages-collector>
@@ -86,80 +84,26 @@
         <counts>
           <entry key="Groovy" value="4" />
           <entry key="JAVA" value="9" />
-          <entry key="Kotlin" value="60" />
+          <entry key="Kotlin" value="71" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="172" />
-          <entry key="kt" value="11964" />
+          <entry key="kt" value="13645" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="172" />
-          <entry key="Kotlin" value="11964" />
+          <entry key="Kotlin" value="13645" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter05/Map.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter05/FlatMap.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter05/Reduce.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter05/Fold.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter05/Filter.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter05/TakeWhile.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter05/LetApplyWith.kt">
           <provider selected="true" editor-type-id="text-editor">
@@ -169,20 +113,74 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter05/Tailrec.kt">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter05/ClosePackage.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+            <state relative-caret-position="247">
+              <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.2.51/e8c91083a5863d94fdc2836459e7e7a555774be9/kotlin-stdlib-common-1.2.51-sources.jar!/kotlin/util/Standard.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter05/FunctionCompound.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="59" column="48" selection-start-line="59" selection-start-column="43" selection-end-line="59" selection-end-column="48" />
+            <state relative-caret-position="323">
+              <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter05/Currying.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter05/偏函数.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter05/Exercise.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.2.51/e8c91083a5863d94fdc2836459e7e7a555774be9/kotlin-stdlib-common-1.2.51-sources.jar!/generated/_Maps.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="61" column="42" selection-start-line="61" selection-start-column="42" selection-end-line="61" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.2.51/e8c91083a5863d94fdc2836459e7e7a555774be9/kotlin-stdlib-common-1.2.51-sources.jar!/kotlin/util/Tuples.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="42" column="26" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter04/Extends.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -191,7 +189,7 @@
         <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.2.51/e8c91083a5863d94fdc2836459e7e7a555774be9/kotlin-stdlib-common-1.2.51-sources.jar!/generated/_Collections.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="149">
-              <caret line="799" column="34" selection-start-line="799" selection-start-column="34" selection-end-line="799" selection-end-column="34" />
+              <caret line="1146" column="37" selection-start-line="1146" selection-start-column="37" selection-end-line="1146" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -214,6 +212,7 @@
       <find>get</find>
       <find>getvalue</find>
       <find>classpath</find>
+      <find>function</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\zy1584\IdeaProjects\kotlinLessons\src\main\kotlin\com\qiang\example\chapter02</dir>
@@ -720,6 +719,11 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter05/Apply.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter05/LetApplyWith.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter05/Tailrec.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter05/ClosePackage.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter05/FunctionCompound.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter05/Currying.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter05/偏函数.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter05/Exercise.kt" />
       </list>
     </option>
   </component>
@@ -743,9 +747,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -779,15 +780,36 @@
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="qiang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotlinLessons" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter04" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qiang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotlinLessons" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter05" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="charsequen&#9;PSI&#9;JAVA://java.lang.CharSequence&#10;charseq&#9;null&#9;null" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533633201021" />
+    <property name="SearchEverywhereHistoryKey" value="function1&#9;null&#9;null&#10;charsequen&#9;PSI&#9;JAVA://java.lang.CharSequence&#10;charseq&#9;null&#9;null" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533716275632" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -810,86 +832,86 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.com.qiang.example.chapter05.TakeWhileKt">
-    <configuration name="com.qiang.example.chapter05.FilterKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.com.qiang.example.chapter05.ExerciseKt">
+    <configuration name="com.qiang.example.chapter05.ClosePackageKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="qiang_main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.qiang.example.chapter05.FilterKt" />
+      <option name="MAIN_CLASS_NAME" value="com.qiang.example.chapter05.ClosePackageKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.qiang.example.chapter05.FlatMapKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="com.qiang.example.chapter05.CurryingKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="qiang_main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.qiang.example.chapter05.FlatMapKt" />
+      <option name="MAIN_CLASS_NAME" value="com.qiang.example.chapter05.CurryingKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.qiang.example.chapter05.FoldKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="com.qiang.example.chapter05.ExerciseKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="qiang_main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.qiang.example.chapter05.FoldKt" />
+      <option name="MAIN_CLASS_NAME" value="com.qiang.example.chapter05.ExerciseKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.qiang.example.chapter05.ReduceKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="com.qiang.example.chapter05.FunctionCompoundKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="qiang_main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.qiang.example.chapter05.ReduceKt" />
+      <option name="MAIN_CLASS_NAME" value="com.qiang.example.chapter05.FunctionCompoundKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.qiang.example.chapter05.TakeWhileKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="com.qiang.example.chapter05.偏函数Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="qiang_main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.qiang.example.chapter05.TakeWhileKt" />
+      <option name="MAIN_CLASS_NAME" value="com.qiang.example.chapter05.偏函数Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.com.qiang.example.chapter05.FlatMapKt" />
-      <item itemvalue="Kotlin.com.qiang.example.chapter05.ReduceKt" />
-      <item itemvalue="Kotlin.com.qiang.example.chapter05.FoldKt" />
-      <item itemvalue="Kotlin.com.qiang.example.chapter05.FilterKt" />
-      <item itemvalue="Kotlin.com.qiang.example.chapter05.TakeWhileKt" />
+      <item itemvalue="Kotlin.com.qiang.example.chapter05.ClosePackageKt" />
+      <item itemvalue="Kotlin.com.qiang.example.chapter05.FunctionCompoundKt" />
+      <item itemvalue="Kotlin.com.qiang.example.chapter05.CurryingKt" />
+      <item itemvalue="Kotlin.com.qiang.example.chapter05.偏函数Kt" />
+      <item itemvalue="Kotlin.com.qiang.example.chapter05.ExerciseKt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.com.qiang.example.chapter05.TakeWhileKt" />
-        <item itemvalue="Kotlin.com.qiang.example.chapter05.FilterKt" />
-        <item itemvalue="Kotlin.com.qiang.example.chapter05.FoldKt" />
-        <item itemvalue="Kotlin.com.qiang.example.chapter05.ReduceKt" />
-        <item itemvalue="Kotlin.com.qiang.example.chapter05.FlatMapKt" />
+        <item itemvalue="Kotlin.com.qiang.example.chapter05.ExerciseKt" />
+        <item itemvalue="Kotlin.com.qiang.example.chapter05.偏函数Kt" />
+        <item itemvalue="Kotlin.com.qiang.example.chapter05.CurryingKt" />
+        <item itemvalue="Kotlin.com.qiang.example.chapter05.FunctionCompoundKt" />
+        <item itemvalue="Kotlin.com.qiang.example.chapter05.ClosePackageKt" />
       </list>
     </recent_temporary>
   </component>
@@ -910,7 +932,7 @@
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2679083" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27148998" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -945,58 +967,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter02/BasicTypes.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1235">
-          <caret line="65" column="52" selection-start-line="65" selection-start-column="52" selection-end-line="65" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter02/NullSafe.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter02/TypeCast.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter02/ArrayExample.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter03/FunctionExample.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter03/OperatorExample.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/install/qiang/bin/qiang.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-798" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/install/qiang/bin/qiang">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2280" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter03/Calc.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -1102,13 +1072,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter04/Extends.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter04/annotations/PoKo.kt" />
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter04/Overload.kt">
       <provider selected="true" editor-type-id="text-editor">
@@ -1176,13 +1139,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter03/LambdaExample.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="33" column="16" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.2.51/e8c91083a5863d94fdc2836459e7e7a555774be9/kotlin-stdlib-common-1.2.51-sources.jar!/generated/_Arrays.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -1221,14 +1177,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter05/Map.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter05/FlatMap.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -1253,24 +1209,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.2.51/e8c91083a5863d94fdc2836459e7e7a555774be9/kotlin-stdlib-common-1.2.51-sources.jar!/generated/_Collections.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="799" column="34" selection-start-line="799" selection-start-column="34" selection-end-line="799" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter05/TakeWhile.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.2.51/e8c91083a5863d94fdc2836459e7e7a555774be9/kotlin-stdlib-common-1.2.51-sources.jar!/kotlin/util/Standard.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
+        <state relative-caret-position="1064">
           <caret line="59" column="48" selection-start-line="59" selection-start-column="43" selection-end-line="59" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.51/649a609725b857dd285cf69d49d4f1f77335076e/kotlin-stdlib-1.2.51-sources.jar!/kotlin/jvm/functions/Functions.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter03/LambdaExample.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="31" column="22" lean-forward="true" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter04/Extends.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter05/Tailrec.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -1281,10 +1258,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter05/Tailrec.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter05/ClosePackage.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        <state relative-caret-position="247">
+          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter05/FunctionCompound.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter05/Currying.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter05/偏函数.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.2.51/e8c91083a5863d94fdc2836459e7e7a555774be9/kotlin-stdlib-common-1.2.51-sources.jar!/generated/_Collections.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="1146" column="37" selection-start-line="1146" selection-start-column="37" selection-end-line="1146" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.2.51/e8c91083a5863d94fdc2836459e7e7a555774be9/kotlin-stdlib-common-1.2.51-sources.jar!/kotlin/util/Tuples.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="42" column="26" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.2.51/e8c91083a5863d94fdc2836459e7e7a555774be9/kotlin-stdlib-common-1.2.51-sources.jar!/generated/_Maps.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="61" column="42" selection-start-line="61" selection-start-column="42" selection-end-line="61" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/qiang/example/chapter05/Exercise.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
         </state>
       </provider>
     </entry>
